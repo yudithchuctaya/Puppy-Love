@@ -1,0 +1,44 @@
+@import "parciales/_variables.scss";
+*{
+// outline: 2px solid red;
+margin:0px;
+padding:0px;
+}
+#dog{
+	background-color:$color-dog;
+	font-family: 'Open Sans', sans-serif;
+	color:#fff;
+
+		.dog-magna{
+					width: 100%;
+					height: 40vh;
+					background-image :url("../img/pic01.jpg");
+					background-repeat: no-repeat;
+				    background-size: cover;
+				    background-position: center top;			  
+		  }
+		.dog-tortol{
+				width: 100%;
+				height: 40vh;
+				background-image :url("../img/pic02.jpg");
+				background-repeat: no-repeat;
+			    background-size: cover;
+			    background-position: center top;			  
+		}
+		.dog-augue{
+				width: 100%;
+				height: 40vh;
+				background-image :url("../img/pic03.jpg");
+				background-repeat: no-repeat;
+			    background-size: cover;
+			    background-position: center top;			  
+		}
+
+}
+		#container{
+		margin:0;
+		padding:0;
+	}
+	#doned{
+      background-color:$color-donad;
+	}
