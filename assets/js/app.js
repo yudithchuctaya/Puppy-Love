@@ -1,4 +1,5 @@
 
+
   $('.button-collapse').sideNav({
     menuWidth: 300, // Default is 300
     edge: 'right', // Choose the horizontal origin
@@ -8,3 +9,5 @@
     onClose: function(el) { /* Do Stuff* / }, // A function to be called when sideNav is closed*/
   }
 });
+
+
