@@ -1,6 +1,6 @@
 @import "parciales/_variables.scss";
-@import 'parciales/menu.scss';
-@import 'parciales/seccion2.scss';
+@import 'parciales/_menu.scss';
+@import 'parciales/_seccion2.scss';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans|Saira+Extra+Condensed');
 *{
 // outline: 2px solid red;
@@ -58,10 +58,10 @@ padding:0px;
 
 
       	h1{
-			font-size:20px;
+			font-size:2em;
 		}
 		p{
-		font-size:14px;	
+		font-size:1.5em;	
 		}
 	}
 
@@ -88,7 +88,7 @@ padding:0px;
 			font-size:15px;
 		}
 		p{
-		font-size:10px;	
+		font-size:12px;	
 		}
 		// .box-center{
   //       margin-left:2%;

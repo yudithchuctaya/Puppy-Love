@@ -14,7 +14,7 @@
         color: white;
     }
     .anburgesa{
-        background-color: rgb(29, 185, 202);
+        background-color: rgb(24, 168, 147);
     }
     #menu-puppy-love{
         margin-top:100px;
@@ -24,6 +24,10 @@
             font-size: 25px;
         }
     }
+}
+.side-nav{
+    width:200px  !important;           
+
 }
 header{
     background: linear-gradient( to left,rgba(28, 29, 28, 0.4), rgba(46, 49, 49,0.4), rgba(46, 49, 49, 0.4), rgba(49,49,49, 0.4)), url(../img/banner.jpg);
