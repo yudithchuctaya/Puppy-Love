@@ -1,0 +1,60 @@
+#seccion2{
+    height: 100vh;
+    background-color: rgb(24, 168, 147);
+    #seccion2-puppy-love{
+        color: white;
+        .seccion2-titulo-puppy-love{
+           font-size: 3em;
+            font-weight: bold; 
+            margin-top: 5%;
+        }
+        hr{
+            width: 90%;  
+            margin-left: 5%;
+        }
+        #parrafos-puppy{
+            margin-left: 100px;
+            #p-puppy-love{
+            font-size: 2em;
+            // padding: 20px;
+            color: rgba(247, 247, 247, 0.8);
+        }
+        }
+        #collar, #hueso-white, #plato{
+            height:10em;
+            width: 10em;
+            margin-left: 45px;
+            margin-top: 5%;
+        }
+    }
+}
+@media (max-width: 700px){
+   
+    #seccion2{
+        height: 40vh;
+      #seccion2-puppy-love{
+        .seccion2-titulo-puppy-love{
+            font-size: 1em;
+            font-weight: bold; 
+            margin-top: 2%;
+         }
+         hr{
+             width: 90%;  
+             margin-left: 5%;
+         }
+        #parrafos-puppy {
+            margin-left: 0px; 
+            #p-puppy-love{
+                font-size: 1em;
+            }
+         }
+         #collar, #hueso-white, #plato{
+             height: 4em;
+             width: 4em;
+             margin-left: 35px;
+             margin-top: 2%;
+         }
+         
+    }  
+    } 
+}
