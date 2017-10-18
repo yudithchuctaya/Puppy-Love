@@ -75,7 +75,7 @@ header {
 
 @media (max-width: 700px) {
   #seccion2 {
-    height: 40vh; }
+    height: 50vh; }
     #seccion2 #seccion2-puppy-love .seccion2-titulo-puppy-love {
       font-size: 1em;
       font-weight: bold;
