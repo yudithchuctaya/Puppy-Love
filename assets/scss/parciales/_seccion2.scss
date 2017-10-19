@@ -29,10 +29,40 @@
         }
     }
 }
-@media (max-width: 700px){
+@media (min-width:900px ) and (max-width: 1030px){
+    #seccion2{
+        height: 30vh;
+      #seccion2-puppy-love{
+        .seccion2-titulo-puppy-love{
+            font-size: 2em;
+            font-weight: bold; 
+            margin-top: 2%;
+         }
+         hr{
+             width: 80%;  
+             margin-left: 10%;
+         }
+        #parrafos-puppy {
+            margin-left: 10%; 
+            #p-puppy-love{
+                font-size: 2em;
+            }
+         }
+         #collar, #hueso-white, #plato{
+             height: 7em;
+             width: 7em;
+             margin-left: 35px;
+             margin-top: 2%;
+         }
+         
+    }  
+    } 
+
+}
+@media (max-width: 900px){
    
     #seccion2{
-        height: 50vh;
+        height: 40vh;
       #seccion2-puppy-love{
         .seccion2-titulo-puppy-love{
             font-size: 1em;
