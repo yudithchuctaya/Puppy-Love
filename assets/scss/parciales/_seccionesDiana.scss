@@ -1,0 +1,23 @@
+#dog-puppy{
+    height: 60vh;
+    background: linear-gradient( to left,rgba(28, 29, 28, 0.4), rgba(46, 49, 49,0.4), rgba(46, 49, 49, 0.4), rgba(49,49,49, 0.4)), url(../img/pic05.jpg);
+    background-position: center left;
+    background-size: cover;
+    .texto-adoptar{
+        font-size:3em;
+        margin-top: 10%;
+    }
+    .botones{
+        margin-top: 15%;
+    }
+    .btn{
+        padding: 5px 20px;
+        margin-left: 20px;
+        height: 40px;
+        // width: 100%;
+    }
+    .btn-trans{
+        background: transparent;
+        border:2px solid white;
+    }
+}
