@@ -12,7 +12,10 @@
     margin-top: 10px;
     color: white; }
   .nav .anburgesa {
-    background-color: #18a893; }
+
+    background: #15a892; }
+
+
   .nav #menu-puppy-love {
     margin-top: 100px; }
     .nav #menu-puppy-love li a {
@@ -77,9 +80,28 @@ header {
       margin-left: 45px;
       margin-top: 5%; }
 
-@media (max-width: 700px) {
+@media (min-width: 900px) and (max-width: 1030px) {
   #seccion2 {
-    height: 50vh; }
+    height: 30vh; }
+    #seccion2 #seccion2-puppy-love .seccion2-titulo-puppy-love {
+      font-size: 2em;
+      font-weight: bold;
+      margin-top: 2%; }
+    #seccion2 #seccion2-puppy-love hr {
+      width: 80%;
+      margin-left: 10%; }
+    #seccion2 #seccion2-puppy-love #parrafos-puppy {
+      margin-left: 10%; }
+      #seccion2 #seccion2-puppy-love #parrafos-puppy #p-puppy-love {
+        font-size: 2em; }
+    #seccion2 #seccion2-puppy-love #collar, #seccion2 #seccion2-puppy-love #hueso-white, #seccion2 #seccion2-puppy-love #plato {
+      height: 7em;
+      width: 7em;
+      margin-left: 35px;
+      margin-top: 2%; } }
+@media (max-width: 900px) {
+  #seccion2 {
+    height: 40vh; }
     #seccion2 #seccion2-puppy-love .seccion2-titulo-puppy-love {
       font-size: 1em;
       font-weight: bold;
@@ -96,6 +118,46 @@ header {
       width: 4em;
       margin-left: 35px;
       margin-top: 2%; } }
+#dog-puppy {
+  height: 60vh;
+  background: linear-gradient(to left, rgba(28, 29, 28, 0.4), rgba(46, 49, 49, 0.4), rgba(46, 49, 49, 0.4), rgba(49, 49, 49, 0.4)), url(../img/pic05.jpg);
+  background-position: center left;
+  background-size: cover; }
+  #dog-puppy .texto-adoptar {
+    margin-top: 10%; }
+  #dog-puppy .titulo-adoptar {
+    font-size: 3vw; }
+  #dog-puppy .parrafo-adoptar {
+    font-size: 2vw; }
+  #dog-puppy .botones {
+    margin-top: 15%; }
+  #dog-puppy .btn {
+    padding: 5px 20px;
+    margin-left: 20px;
+    height: 40px; }
+  #dog-puppy .btn-trans {
+    background: transparent;
+    border: 2px solid white; }
+
+@media (min-width: 900px) and (max-width: 1030px) {
+  #dog-puppy {
+    height: 30vh; }
+
+  .botones {
+    margin-left: 20%; }
+
+  .titulo-adoptar {
+    font-size: 4vw; }
+
+  .parrafo-adoptar {
+    font-size: 3vw; } }
+@media (max-width: 900px) {
+  #dog-puppy .texto-adoptar {
+    margin-top: 10%; }
+  #dog-puppy .titulo-adoptar {
+    font-size: 6vw; }
+  #dog-puppy .parrafo-adoptar {
+    font-size: 4vw; } }
 * {
   margin: 0px;
   padding: 0px; }
