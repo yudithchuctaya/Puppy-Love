@@ -157,8 +157,9 @@ header {
 
 #dog {
   background-color: #2b343d;
+  color: #fff;
   font-family: 'Open Sans', sans-serif;
-  color: #fff; }
+  overflow: hidden; }
   #dog .dog-magna {
     width: 100%;
     height: 40vh;
@@ -186,6 +187,32 @@ header {
   padding: 0; }
 
 #doned {
-  background-color: #505393; }
+  font-family: 'Open Sans', sans-serif;
+  background-color: #505393;
+  overflow: hidden;
+  color: #fff; }
+  #doned .box-center {
+    background-color: #45487f; }
+  #doned h1 {
+    font-size: 20px; }
+  #doned p {
+    font-size: 14px; }
+
+@media (max-width: 1100px) {
+  #dog {
+    margin: 0px;
+    padding: 0px; }
+    #dog h1 {
+      font-size: 20px; }
+    #dog p {
+      font-size: 14px; }
+
+  #doned {
+    margin: 0px;
+    padding: 0px; }
+    #doned h1 {
+      font-size: 15px; }
+    #doned p {
+      font-size: 10px; } }
 
 /*# sourceMappingURL=main.css.map */
